@@ -54,7 +54,7 @@ void uart_put_str(char *str);
 #define uart_puts_P(x) do {} while(0)
 #define uart_putcrlf() do {} while(0)
 #define uart_trace(a,b,c) do {} while(0)
-#define uart_put_str() do {} while(0)
+#define uart_put_str(x) do {} while(0)
 
 #endif
 
